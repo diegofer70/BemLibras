@@ -140,7 +140,7 @@ body {
 .hero-image-container {
     display: flex;
     justify-content: center;
-    /* margin-top: 1rem; */
+    margin-top: 2rem;
 }
 
 .hero-title {
