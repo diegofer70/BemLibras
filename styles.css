@@ -137,30 +137,29 @@ body {
     margin: 0 auto;
 }
 
-.hero-image {
+.hero-image-container {
     display: flex;
-    margin: 2rem auto 0;
-    margin-bottom: 2rem;
-    height: 430px;
+    justify-content: center;
+    /* margin-top: 1rem; */
 }
 
 .hero-title {
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.9rem;
     line-height: 1.2;
 }
 
 .hero-description {
     font-size: 1.25rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 20px;
     opacity: 0.95;
-    line-height: 1.8;
+    line-height: 1.2;
 }
 
 .btn-primary {
     display: inline-block;
-    background-color: #31cf8d;
+    background-color: #27ad76;
     color: var(--white);
     padding: 1rem 2.5rem;
     text-decoration: none;
@@ -168,6 +167,14 @@ body {
     border-radius: 8px;
     transition: var(--transition);
     font-size: 1.1rem;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #1e7a5c;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    outline: none;
 }
 
 /* Services Section */
